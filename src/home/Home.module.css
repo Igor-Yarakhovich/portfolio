@@ -1,0 +1,22 @@
+.home {
+    height: 100vh;
+    background-color: coral;
+}
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text {
+    width: 450px;
+    background-color: bisque;
+}
+
+
+

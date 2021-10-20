@@ -1,0 +1,26 @@
+.contacts {
+    background-color: darkgrey;
+    height: 50vh;
+    min-height: 100%;
+}
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formContacts{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.title {
+    background-color: aquamarine;
+}

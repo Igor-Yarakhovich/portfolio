@@ -1,0 +1,16 @@
+.skill {
+    width: 33.333%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color: cadetblue;
+}
