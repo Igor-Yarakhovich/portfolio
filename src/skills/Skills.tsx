@@ -1,12 +1,13 @@
 import React from 'react';
 import style from './Skills.module.css';
 import {Skill} from "./skill/Skill";
+import {Title} from "../common/components/title/Title";
 
-export const Skills = () => {
+export const Skills: React.FC = () => {
     return (
         <div className={style.skillsBlock}>
             <div className={style.container}>
-                <h2 className={style.title}>SKILLS</h2>
+                <Title name='skills'/>
                 <div className={style.skills}>
                     <Skill title={"HTML"}
                            description={"Lorem ipsum dolor sit amet," +

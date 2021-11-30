@@ -1,6 +1,6 @@
 .home {
     height: 100vh;
-    background-color: coral;
+    background-color: #1c1d24;
 }
 
 .container {
@@ -18,11 +18,11 @@
     background-color: bisque;
 }
 
-@media (max-width: 767px) {
-    .home{
-        background-color: cornflowerblue;
-    }
-}
+/*@media (max-width: 767px) {*/
+/*    .home{*/
+/*        background-color: cornflowerblue;*/
+/*    }*/
+/*}*/
 
 
 

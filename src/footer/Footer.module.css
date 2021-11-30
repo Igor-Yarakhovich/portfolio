@@ -1,6 +1,5 @@
 .footer{
-    background-color: cornflowerblue;
-    height: 25vh;
+    background-color: #0e0f10;
     min-height: 100%;
 }
 
@@ -13,6 +12,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 .social{
@@ -25,4 +25,8 @@
     height: 30px;
     background-color: bisque;
     margin: 5px;
+}
+
+.footerText{
+    color: white;
 }

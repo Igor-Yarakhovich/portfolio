@@ -1,12 +1,13 @@
 import React from 'react';
 import style from './Portfolio.module.css'
 import {Work} from "./work/Work";
+import {Title} from "../common/components/title/Title";
 
 export const Portfolio = () => {
     return (
         <div className={style.portfolio}>
             <div className={style.container}>
-                <h2 className={style.title}>PORTFOLIO</h2>
+                <Title name='portfolio'/>
                 <div className={style.works}>
                     <Work title={"Social Network"}
                           description={"Lorem ipsum dolor sit amet," +
