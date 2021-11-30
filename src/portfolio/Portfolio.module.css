@@ -1,5 +1,4 @@
 .portfolio {
-    height: 100vh;
     background-color: darkcyan;
 
 }
@@ -13,6 +12,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .title{
@@ -20,8 +20,8 @@
 }
 
 .works{
-    border: 1px solid;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }

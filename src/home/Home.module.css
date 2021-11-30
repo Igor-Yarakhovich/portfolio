@@ -18,5 +18,11 @@
     background-color: bisque;
 }
 
+@media (max-width: 767px) {
+    .home{
+        background-color: cornflowerblue;
+    }
+}
+
 
 
