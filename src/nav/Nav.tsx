@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Nav.module.css'
 
-export const Nav = () => {
+export const Nav: React.FC = () => {
     return (
         <div className={style.container}>
             <div className={style.nav}>

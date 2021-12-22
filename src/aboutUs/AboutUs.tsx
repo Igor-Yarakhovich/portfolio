@@ -1,15 +1,16 @@
 import React from 'react';
 import style from './AboutUs.module.css'
 import {Title} from "../common/components/title/Title";
+import container from "../common/styles/container.module.css";
 
-export const AboutUs = () => {
+export const AboutUs: React.FC = () => {
     return (
         <div className={style.aboutUs}>
-            <div className={style.container}>
+            <div className={`${container.container} ${style.aboutUsContainer}`}>
                 <Title name='about us'/>
                 <div className={style.content}>
-                    <div className={style.photo}></div>
-                    <div className={style.info}></div>
+                    <div className={style.photo}>photo</div>
+                    <div className={style.info}>info</div>
                 </div>
             </div>
         </div>

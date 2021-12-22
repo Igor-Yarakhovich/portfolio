@@ -2,11 +2,12 @@ import React from 'react';
 import style from './Skills.module.css';
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
+import container from "../common/styles/container.module.css";
 
 export const Skills: React.FC = () => {
     return (
         <div className={style.skillsBlock}>
-            <div className={style.container}>
+            <div className={`${container.container} ${style.containerSkills}`}>
                 <Title name='skills'/>
                 <div className={style.skills}>
                     <Skill title={"HTML"}
