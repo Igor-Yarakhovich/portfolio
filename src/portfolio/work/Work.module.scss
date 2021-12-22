@@ -73,6 +73,10 @@
     right: 0;
     opacity: 0.6;
   }
+  .workContainer:hover {
+    transition: all linear .2s;
+    background: white;
+  }
 }
 
 
