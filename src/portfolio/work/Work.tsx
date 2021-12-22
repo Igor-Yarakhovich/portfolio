@@ -1,20 +1,24 @@
 import React from 'react';
-import style from './Work.module.css'
+import styles from './Work.module.scss'
 
 export type WorkPropsType = {
     title: string
     description: string
+    addressUrl: string
+    style: {
+        backgroundImage: string
+    }
 }
 
-export const Work: React.FC<WorkPropsType> = ({title, description}) => {
+export const Work: React.FC<WorkPropsType> = ({title, description, addressUrl, style}) => {
     return (
-        <div className={style.work}>
-            <div className={style.workContainer}>
-                <div className={style.icon}>
-                    <button className={style.button}>WATCH</button>
+        <div className={styles.work}>
+            <div className={styles.workContainer}>
+                <div className={styles.icon} style={style}>
+                    <a href={addressUrl} className={styles.button}>WATCH</a>
                 </div>
-                <h3 className={style.workTitle}>{title}</h3>
-                <span className={style.description}>{description}</span>
+                <h3 className={styles.workTitle}>{title}</h3>
+                <span className={styles.description}>{description}</span>
             </div>
         </div>
     )
