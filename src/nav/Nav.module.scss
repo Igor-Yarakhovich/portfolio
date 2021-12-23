@@ -1,19 +1,42 @@
 @import './src/common/styles/variables.scss';
 
 .nav {
-    border: 1px solid darkred;
-    width: 450px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  position: relative;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
 .container {
-    border: 1px solid;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  border: 1px solid;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button {
+  text-decoration: none;
+  position: relative;
+  transition-duration: 0.4s;
+  color: $colorTitle;
+  z-index: 2;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .05rem;
+
+  &:hover {
+    background-color: $bgSecondColor;
+    color: $colorSubtitle;
+    text-decoration: none;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
 }

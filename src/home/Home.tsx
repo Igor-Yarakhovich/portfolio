@@ -4,7 +4,7 @@ import container from './../common/styles/container.module.css'
 
 export const Home : React.FC = () => {
     return (
-        <div className={style.home}>
+        <div className={style.home} id='homeId'>
             <div className={`${container.container} ${style.homeContainer}`}>
                 <div className={style.textContainer}>
                     <h1 className={style.title}>Hello,</h1>

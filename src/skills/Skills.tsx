@@ -6,7 +6,7 @@ import container from "../common/styles/container.module.css";
 
 export const Skills: React.FC = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id='skillsId'>
             <div className={`${container.container} ${style.containerSkills}`}>
                 <Title name='skills'/>
                 <div className={style.skills}>

@@ -6,7 +6,7 @@ import container from "../common/styles/container.module.css";
 
 export const Contacts: React.FC = () => {
     return (
-        <div className={style.contacts}>
+        <div className={style.contacts} id='contactId'>
             <div className={`${container.container} ${style.containerContacts}`}>
                 <Title name='contacts'/>
                 <form className={style.formContacts}>

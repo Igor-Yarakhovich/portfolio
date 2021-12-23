@@ -5,11 +5,11 @@ export const Nav: React.FC = () => {
     return (
         <div className={style.container}>
             <div className={style.nav}>
-                <a href=''>HOME</a>
-                <a href=''>ABOUT US</a>
-                <a href=''>SKILLS</a>
-                <a href=''>PORTFOLIO</a>
-                <a href=''>CONTACTS</a>
+                <a className={style.button} href='#homeId'>HOME</a>
+                <a className={style.button} href='#aboutId'>ABOUT US</a>
+                <a className={style.button} href='#skillsId'>SKILLS</a>
+                <a className={style.button} href='#portfolioId'>PORTFOLIO</a>
+                <a className={style.button} href='#contactId'>CONTACTS</a>
             </div>
         </div>
     )
