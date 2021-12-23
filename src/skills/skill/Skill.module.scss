@@ -1,0 +1,27 @@
+@import './src/common/styles/variables.scss';
+
+.skill {
+  min-width: 150px;
+  max-width: 300px;
+  height: 80%;
+  background-color: $bgColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 6px 2px;
+}
+
+.title {
+  color: $colorTitle
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+  background-color: cadetblue;
+}
+
+.description {
+  color: $colorSubtitle
+}

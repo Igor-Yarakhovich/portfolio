@@ -15,7 +15,7 @@ export const Work: React.FC<WorkPropsType> = ({title, description, addressUrl, s
         <div className={styles.work}>
             <div className={styles.workContainer}>
                 <div className={styles.icon} style={style}>
-                    <a href={addressUrl} className={styles.button}>WATCH</a>
+                    <a target="_blank" rel="noreferrer" href={addressUrl} className={styles.button}>WATCH</a>
                 </div>
                 <h3 className={styles.workTitle}>{title}</h3>
                 <span className={styles.description}>{description}</span>

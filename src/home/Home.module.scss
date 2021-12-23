@@ -1,0 +1,23 @@
+@import './src/common/styles/variables.scss';
+
+.home {
+    height: 100vh;
+    background-color: $bgSecondColor;
+}
+
+.homeContainer {
+    justify-content: flex-start;
+}
+
+.textContainer {
+    width: 450px;
+    background-color: black;
+}
+
+.title {
+    color: $colorTitle
+}
+
+
+
+

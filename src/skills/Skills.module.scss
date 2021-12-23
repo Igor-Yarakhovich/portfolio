@@ -1,5 +1,7 @@
+@import './src/common/styles/variables.scss';
+
 .skillsBlock {
-    background-color: #1c1d24;
+    background-color: $bgSecondColor;
 }
 
 .containerSkills {

@@ -1,5 +1,7 @@
+@import './src/common/styles/variables.scss';
+
 .contacts {
-    background-color: #1c1d24;
+    background-color: $bgSecondColor;
 }
 
 .containerContacts {
@@ -12,8 +14,4 @@
     display: flex;
     flex-direction: column;
     width: 250px;
-}
-
-.title {
-    background-color: aquamarine;
 }
