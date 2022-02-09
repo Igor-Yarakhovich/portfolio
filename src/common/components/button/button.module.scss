@@ -1,0 +1,29 @@
+@import './src/common/styles/variables.scss';
+
+.button {
+  background: $primaryColor;
+  color: $colorTitle;
+  padding: 3px 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 46px;
+  display: inline-block;
+  border: none;
+  font-weight: 600;
+  text-decoration: none !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+  cursor: pointer !important;
+  transition-duration: .3s;
+  border-radius: 5px;
+  margin: 0 auto;
+
+
+  &:hover {
+    background-color: $bgColor;
+    color: white;
+    text-decoration: none;
+  }
+}

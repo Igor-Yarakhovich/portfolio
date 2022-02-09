@@ -1,21 +1,26 @@
 @import './src/common/styles/variables.scss';
 
 .home {
-    height: 100vh;
-    background-color: $bgSecondColor;
+  height: 100vh;
+  background-color: $bgSecondColor;
 }
 
 .homeContainer {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .textContainer {
-    width: 450px;
-    background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
-    color: $colorTitle
+  font-family: "Nunito", serif;
+  color: $colorTitle;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1.2;
 }
 
 
