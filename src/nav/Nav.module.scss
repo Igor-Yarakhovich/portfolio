@@ -33,27 +33,21 @@
 
 
   &:hover {
-    //background-color: $bgSecondColor;
-    color: #dc965a;
+    color: $primaryColor;
     text-decoration: none;
     transition: .3s;
-
 
     &::before {
       position: absolute;
       left: 0;
       content: "";
       height: 3px;
-      background: #dc965a;
+      background: $primaryColor;
       transition: .3s;
       bottom: 0;
       width: 100%;
-      transform: scaleX(1);
-      transform-origin: left;
     }
   }
-
-
 
   &:active {
     text-decoration: none;

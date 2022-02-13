@@ -12,6 +12,7 @@
     min-height: 100%;
     flex-direction: column;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .photo img{
@@ -22,9 +23,12 @@
 }
 
 .info {
-    color: $colorSubtitle;
-    width: 300px;
-    font-weight: 700;
+    color: white;
+    width: 450px;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 21px;
+    margin-left: 20px;
 }
 
 .content {

@@ -1,27 +1,42 @@
 @import './src/common/styles/variables.scss';
 
 .skill {
-  min-width: 150px;
-  max-width: 300px;
-  height: 80%;
+  width: 280px;
+  height: 300px;
   background-color: $bgColor;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 6px 2px;
+  margin: 10px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0);
+  cursor: pointer;
+  transition: .3ms;
+
+  &:hover{
+    background: linear-gradient(to right, #203f46, $bgColor);
+    //transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  }
 }
 
 .title {
-  color: $colorTitle
+  color: $colorTitle;
+  font-weight: 600;
+  font-size: 21px;
+  margin: 10px;
 }
 
-.icon {
-  height: 60px;
-  width: 60px;
-  background-color: cadetblue;
+.icon img{
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 10px;
 }
 
 .description {
-  color: $colorSubtitle
+  color: $colorSubtitle;
+  font-weight: 500;
+  text-align: left;
+  margin: 0 20px;
 }

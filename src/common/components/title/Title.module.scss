@@ -4,7 +4,7 @@
 .title {
   @include titleText($colorTitle, $titleFont, 45px, 800);
   position: relative;
-  margin: 0 0 15px;
+  margin: 0 0 30px;
   padding: 0 0 15px;
   text-transform: capitalize;
 
@@ -13,7 +13,7 @@
     position: absolute;
     width: 40px;
     height: 3px;
-    background: #dc965a;
+    background: $primaryColor;
     left: 0;
     right: 0;
     bottom: 0;
