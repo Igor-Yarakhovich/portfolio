@@ -24,19 +24,52 @@
   position: relative;
   transition-duration: 0.4s;
   color: $colorTitle;
+  padding: 10px 0;
   z-index: 2;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: .05rem;
 
+
   &:hover {
-    background-color: $bgSecondColor;
-    color: $colorSubtitle;
+    //background-color: $bgSecondColor;
+    color: #dc965a;
     text-decoration: none;
+    transition: .3s;
+
+
+    &::before {
+      position: absolute;
+      left: 0;
+      content: "";
+      height: 3px;
+      background: #dc965a;
+      transition: .3s;
+      bottom: 0;
+      width: 100%;
+      transform: scaleX(1);
+      transform-origin: left;
+    }
   }
+
+
 
   &:active {
     text-decoration: none;
   }
+
 }
+
+//position: absolute;
+//top: none;
+//right: none;
+//left: 0;
+//content: "";
+//height: 3px;
+//background: #f9004d;
+//transition: .3s;
+//bottom: 0;
+//width: 100%;
+//          transform: scaleX(1);
+//transform-origin: left;

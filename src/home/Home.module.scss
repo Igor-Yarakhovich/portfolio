@@ -1,8 +1,14 @@
 @import './src/common/styles/variables.scss';
 
+
 .home {
   height: 100vh;
-  background-color: $bgSecondColor;
+  background-image: url('background.jpeg');
+  background-size: cover;
+
+  //object-fit: cover;
+  //object-position: center;
+  //background-color: $bgSecondColor;
 }
 
 .homeContainer {
