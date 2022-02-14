@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.05711e39.chunk.css",
-    "main.js": "/portfolio/static/js/main.2a4d2062.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2a4d2062.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.9c152676.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9c152676.js.map",
-    "static/js/2.b45cd11f.chunk.js": "/portfolio/static/js/2.b45cd11f.chunk.js",
-    "static/js/2.b45cd11f.chunk.js.map": "/portfolio/static/js/2.b45cd11f.chunk.js.map",
-    "static/js/3.c4cc5839.chunk.js": "/portfolio/static/js/3.c4cc5839.chunk.js",
-    "static/js/3.c4cc5839.chunk.js.map": "/portfolio/static/js/3.c4cc5839.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.60a4da87.chunk.css",
+    "main.js": "/portfolio/static/js/main.327cd0e9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.327cd0e9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.4b2a2e8b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4b2a2e8b.js.map",
+    "static/js/2.f66aa1ed.chunk.js": "/portfolio/static/js/2.f66aa1ed.chunk.js",
+    "static/js/2.f66aa1ed.chunk.js.map": "/portfolio/static/js/2.f66aa1ed.chunk.js.map",
+    "static/js/3.b4f3d747.chunk.js": "/portfolio/static/js/3.b4f3d747.chunk.js",
+    "static/js/3.b4f3d747.chunk.js.map": "/portfolio/static/js/3.b4f3d747.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.05711e39.chunk.css.map": "/portfolio/static/css/main.05711e39.chunk.css.map",
-    "static/js/2.b45cd11f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b45cd11f.chunk.js.LICENSE.txt"
+    "static/css/main.60a4da87.chunk.css.map": "/portfolio/static/css/main.60a4da87.chunk.css.map",
+    "static/js/2.f66aa1ed.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f66aa1ed.chunk.js.LICENSE.txt",
+    "static/media/1586249_codewars_icon.d2fa2ea7.png": "/portfolio/static/media/1586249_codewars_icon.d2fa2ea7.png",
+    "static/media/Axios-logo.12d5f5c6.png": "/portfolio/static/media/Axios-logo.12d5f5c6.png",
+    "static/media/JavaScript.ba0a9285.png": "/portfolio/static/media/JavaScript.ba0a9285.png",
+    "static/media/Home.module.scss": "/portfolio/static/media/background.532e0f28.jpeg",
+    "static/media/best-to-do-list-apps-for-task-management.975acdf9.jpg": "/portfolio/static/media/best-to-do-list-apps-for-task-management.975acdf9.jpg",
+    "static/media/github.553c6615.png": "/portfolio/static/media/github.553c6615.png",
+    "static/media/icons8-react-200.d32b912d.png": "/portfolio/static/media/icons8-react-200.d32b912d.png",
+    "static/media/icons8-redux-240.8442924f.png": "/portfolio/static/media/icons8-redux-240.8442924f.png",
+    "static/media/myPhoto.845668c0.jpg": "/portfolio/static/media/myPhoto.845668c0.jpg",
+    "static/media/restAPI.463d08bb.png": "/portfolio/static/media/restAPI.463d08bb.png",
+    "static/media/social-network.062318ef.png": "/portfolio/static/media/social-network.062318ef.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c152676.js",
-    "static/js/2.b45cd11f.chunk.js",
-    "static/css/main.05711e39.chunk.css",
-    "static/js/main.2a4d2062.chunk.js"
+    "static/js/runtime-main.4b2a2e8b.js",
+    "static/js/2.f66aa1ed.chunk.js",
+    "static/css/main.60a4da87.chunk.css",
+    "static/js/main.327cd0e9.chunk.js"
   ]
 }
