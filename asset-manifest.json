@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.859920f3.chunk.css",
-    "main.js": "/portfolio/static/js/main.5d606700.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5d606700.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.99cd3027.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.99cd3027.js.map",
-    "static/js/2.7baffc42.chunk.js": "/portfolio/static/js/2.7baffc42.chunk.js",
-    "static/js/2.7baffc42.chunk.js.map": "/portfolio/static/js/2.7baffc42.chunk.js.map",
-    "static/js/3.81e213fe.chunk.js": "/portfolio/static/js/3.81e213fe.chunk.js",
-    "static/js/3.81e213fe.chunk.js.map": "/portfolio/static/js/3.81e213fe.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6e258f4b.chunk.css",
+    "main.js": "/portfolio/static/js/main.723645c4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.723645c4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fbae96d9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fbae96d9.js.map",
+    "static/js/2.7d4948c0.chunk.js": "/portfolio/static/js/2.7d4948c0.chunk.js",
+    "static/js/2.7d4948c0.chunk.js.map": "/portfolio/static/js/2.7d4948c0.chunk.js.map",
+    "static/js/3.7b81dea6.chunk.js": "/portfolio/static/js/3.7b81dea6.chunk.js",
+    "static/js/3.7b81dea6.chunk.js.map": "/portfolio/static/js/3.7b81dea6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.859920f3.chunk.css.map": "/portfolio/static/css/main.859920f3.chunk.css.map",
-    "static/js/2.7baffc42.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7baffc42.chunk.js.LICENSE.txt",
+    "static/css/main.6e258f4b.chunk.css.map": "/portfolio/static/css/main.6e258f4b.chunk.css.map",
+    "static/js/2.7d4948c0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7d4948c0.chunk.js.LICENSE.txt",
     "static/media/1586249_codewars_icon.d2fa2ea7.png": "/portfolio/static/media/1586249_codewars_icon.d2fa2ea7.png",
     "static/media/Axios-logo.12d5f5c6.png": "/portfolio/static/media/Axios-logo.12d5f5c6.png",
     "static/media/JavaScript.ba0a9285.png": "/portfolio/static/media/JavaScript.ba0a9285.png",
@@ -25,9 +25,9 @@
     "static/media/social-network.062318ef.png": "/portfolio/static/media/social-network.062318ef.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.99cd3027.js",
-    "static/js/2.7baffc42.chunk.js",
-    "static/css/main.859920f3.chunk.css",
-    "static/js/main.5d606700.chunk.js"
+    "static/js/runtime-main.fbae96d9.js",
+    "static/js/2.7d4948c0.chunk.js",
+    "static/css/main.6e258f4b.chunk.css",
+    "static/js/main.723645c4.chunk.js"
   ]
 }
