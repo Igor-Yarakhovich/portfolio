@@ -7,6 +7,6 @@ type ButtonPropsType = {
 
 export const Button: React.FC<ButtonPropsType> = ({name}) => {
     return (
-        <a href={'#aboutId'} className={styles.button}>{name}</a>
+        <a href=' ' className={styles.button}>{name}</a>
     )
 }

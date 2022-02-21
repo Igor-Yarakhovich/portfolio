@@ -1,4 +1,5 @@
 @import './src/common/styles/variables.scss';
+@import './src/common/components/button/button.module';
 
 .contacts {
     background-color: $bgSecondColor;
@@ -14,5 +15,65 @@
 .formContacts{
     display: flex;
     flex-direction: column;
-    width: 250px;
+    //width: 250px;
 }
+
+//.formContacts input:-webkit-autofill,
+//.formContacts input:-webkit-autofill:hover,
+//.formContacts input:-webkit-autofill:focus,
+//.formContacts input:-webkit-autofill,
+//.formContacts textarea:-webkit-autofill,
+//.formContacts textarea:-webkit-autofill:hover,
+//.formContacts textarea:-webkit-autofill:focus,
+//.formContacts select:-webkit-autofill,
+//.formContacts select:-webkit-autofill:hover,
+//.formContacts select:-webkit-autofill:focus {
+//    border: 0;
+//    -webkit-text-fill-color: #1f1f20;
+//    -webkit-box-shadow: 0 0 0 1000px red inset;
+//    transition: background-color 5000s ease-in-out 0s;
+//    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);
+//}
+
+.input,
+.textarea {
+    background: #414b64;
+    border: 1px solid $bgColor;
+    box-sizing: border-box;
+    outline: none;
+    color: $colorTitle;
+    &:-webkit-autofill {
+        border: 0;
+        -webkit-text-fill-color: #1f1f20;
+        -webkit-box-shadow: 0 0 0 1000px $bgColor inset;
+        transition: background-color 5000s ease-in-out 0s;
+        &:focus {
+            border: 2px solid $bgColor;
+        }
+    }
+}
+
+.input {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .4rem 15px;
+    &:focus {
+        border: 1px solid transparent;
+        transition: all 0.4s ease-in-out 0s;
+    }
+}
+
+.textarea {
+    min-height: 160px;
+    padding: 15px;
+    resize: none;
+    &:focus {
+        border: 1px solid transparent;
+        transition: all 0.4s ease-in-out 0s;
+    }
+}
+
+.button{
+    @extend .button;
+    margin-top: 20px;
+}
+

@@ -12,10 +12,11 @@
   margin: 10px;
   box-shadow: 0 25px 50px -12px rgb(0 0 0);
   cursor: pointer;
-  transition: .3ms;
+  transition: all linear .6ms;
 
   &:hover{
     background: linear-gradient(to right, #203f46, $bgColor);
+    transition: all linear .6ms;
     //transition: all .3s cubic-bezier(.645, .045, .355, 1);
   }
 }

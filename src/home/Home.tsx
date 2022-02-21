@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Home.module.scss'
 import container from './../common/styles/container.module.css'
 import {Button} from "../common/components/button/button";
+import ReactTypingEffect from "react-typing-effect";
 
 export const Home: React.FC = () => {
     return (
@@ -11,7 +12,9 @@ export const Home: React.FC = () => {
                     <div className={style.title}>
                         Hello, <br/>
                         I'm Igor Yarakhovich a <br/>
-                        Front-end Developer <br/>
+                        <ReactTypingEffect
+                            text={['Front-end Developer','Front-end Engineer']}
+                            />
                     </div>
                     <Button name={'See Who I\'m'}/>
                 </div>

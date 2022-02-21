@@ -4,11 +4,8 @@
 .home {
   height: 100vh;
   background-image: url('background.jpeg');
+  background-repeat: no-repeat;
   background-size: cover;
-
-  //object-fit: cover;
-  //object-position: center;
-  //background-color: $bgSecondColor;
 }
 
 .homeContainer {
