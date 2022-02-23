@@ -1,13 +1,16 @@
 @import '../../common/styles/variables';
 
 .nav {
-  position: relative;
   width: 450px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 5px;
+  box-sizing: border-box;
   background-color: rgba(14, 13, 13, 0.7);
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 }
 
 .container {

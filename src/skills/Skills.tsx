@@ -15,6 +15,8 @@ import StoryBookImage from '../assets/icon/storyBook.png'
 import TestingImage from '../assets/icon/testing.png'
 import HTMLImage from '../assets/icon/html.png'
 import CSSImage from '../assets/icon/css.png'
+//@ts-ignore
+import Fade from 'react-reveal/Fade';
 
 export const Skills: React.FC = () => {
 
@@ -35,6 +37,7 @@ export const Skills: React.FC = () => {
         <div className={style.skillsBlock} id='skillsId'>
             <div className={`${container.container} ${style.containerSkills}`}>
                 <Title name='skills'/>
+                <Fade bottom>
                 <div className={style.skills}>
                     <Skill title={"React"}
                            description={"JavaScript library for building " +
@@ -102,6 +105,7 @@ export const Skills: React.FC = () => {
 
 
                 </div>
+                </Fade>
             </div>
         </div>
     )

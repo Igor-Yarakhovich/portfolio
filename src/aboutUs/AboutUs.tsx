@@ -4,7 +4,8 @@ import {Title} from "../common/components/title/Title";
 import container from "../common/styles/container.module.css";
 import myPhoto from '../assets/images/myPhoto.jpg'
 import Tilt from "react-parallax-tilt";
-
+//@ts-ignore
+import Fade from 'react-reveal/Fade';
 
 export const AboutUs: React.FC = () => {
     return (
@@ -12,6 +13,7 @@ export const AboutUs: React.FC = () => {
             <div className={`${container.container} ${style.aboutUsContainer}`}>
                 <Title name='about us'/>
                 <div className={style.content}>
+                    <Fade left>
                     <Tilt className="parallax-effect-glare-scale"
                           perspective={500}
                           glareEnable={true}
@@ -20,7 +22,8 @@ export const AboutUs: React.FC = () => {
                           gyroscope={true}>
                         <div className={style.photo}><img src={myPhoto} alt=''/></div>
                     </Tilt>
-
+                    </Fade>
+                    <Fade right>
                     <div className={style.info}>
                         I’m a Front-end developer with experience in creating SPA,
                         using React, Redux, HTML, CSS, JS. Now I am improving my
@@ -31,6 +34,7 @@ export const AboutUs: React.FC = () => {
                         and part-time employment on a project, ready to work in the office
                         or remotely.Open to your suggestions.
                     </div>
+                    </Fade>
                 </div>
             </div>
         </div>
