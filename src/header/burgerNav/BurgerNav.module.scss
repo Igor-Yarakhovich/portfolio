@@ -1,7 +1,7 @@
 @import '../../common/styles/variables';
+@import '../nav/Nav.module';
 
 .container {
-  border: 1px solid;
   height: 100%;
   width: 80%;
   margin: 0 auto;
@@ -16,15 +16,16 @@
 
     .burgerNavItems {
       position: absolute;
-      background-color: #dc965a;
+      background-color: $bgSecondColor;
       height: 0;
       right: 0;
-      top: 54px;
+      left: 0;
+      top: 0;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: nowrap;
-      align-items: stretch;
+      align-items: center;
       transform: translate(0, -250px);
       transition: .7s;
     }
@@ -32,56 +33,94 @@
     .show {
       transform: translate(0, 0);
       height: 250px;
+      padding: 20px;
     }
 
     .burgerButton {
       width: 30px;
       height: 30px;
-      background-color: white;
       position: absolute;
       top: 25px;
-      right: 0;
+      right: 5px;
       cursor: pointer;
+
+      span {
+        transform: translate(0, 0);
+        position: absolute;
+        background-color: $colorTitle;
+        width: 100%;
+        height: 3px;
+        top: 13px;
+        transition: .3s;
+
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        background-color: $colorTitle;
+        width: 100%;
+        height: 3px;
+        left: 0;
+        top: 0;
+        transition: .3s;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        background-color: $colorTitle;
+        width: 100%;
+        height: 3px;
+        left: 0;
+        bottom: 0;
+        transition: .3s;
+      }
     }
 
-    @media screen and (min-width: 500px) {
+    .openBurgerButton {
+
+      span {
+        transform: translate(150px, 0);
+        transition: .9s;
+      }
+
+      &::after {
+        top:14px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        transition: .3s;
+      }
+
+      &::before {
+        top:14px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        transition: .3s;
+      }
+
+    }
+
+    @media screen and (min-width: 768px) {
       display: none;
     }
   }
 }
 
-
 .button {
-  text-decoration: none;
-  position: relative;
-  transition-duration: 0.4s;
-  color: $colorTitle;
-  padding: 10px 0;
-  z-index: 2;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: .05rem;
-  cursor: pointer;
+  @extend .button;
 
   &:hover {
     color: $primaryColor;
     text-decoration: none;
     transition: .3s;
   }
-    &::before {
-      position: absolute;
-      left: 0;
-      content: "";
-      height: 3px;
-      background: $primaryColor;
-      transition: .3s;
-      bottom: 0;
-      width: 100%;
-    }
 
   &:active {
-    text-decoration: none;
     color: $primaryColor
   }
 }

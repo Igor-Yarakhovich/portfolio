@@ -37,7 +37,7 @@ export const Skills: React.FC = () => {
         <div className={style.skillsBlock} id='skillsId'>
             <div className={`${container.container} ${style.containerSkills}`}>
                 <Title name='skills'/>
-                <Fade bottom>
+                <Fade clear>
                 <div className={style.skills}>
                     <Skill title={"React"}
                            description={"JavaScript library for building " +

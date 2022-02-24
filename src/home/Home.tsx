@@ -12,13 +12,13 @@ export const Home: React.FC = () => {
             <div className={`${container.container} ${style.homeContainer}`}>
                 <div className={style.textContainer}>
                     <Fade left>
-                    <div className={style.title}>
-                        Hello, <br/>
-                        I'm Igor Yarakhovich a <br/>
-                        <ReactTypingEffect
-                            text={['Front-end Developer', 'Front-end Engineer']}
-                        />
-                    </div>
+                        <div className={style.title}>
+                            Hello, <br/>
+                            I'm Igor Yarakhovich a <br/>
+                            <ReactTypingEffect
+                                text={['Front-end Developer', 'Front-end Engineer']}
+                            />
+                        </div>
                     </Fade>
                     <Link to="aboutId"
                           spy={true}

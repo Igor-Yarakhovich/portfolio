@@ -3,10 +3,12 @@
 
 
 .home {
-  height: 100vh;
+  padding-top: 80px;
+  min-height: 100vh;
   background-image: url('background.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .homeContainer {
@@ -25,6 +27,14 @@
   font-weight: 700;
   margin-bottom: 15px;
   line-height: 1.2;
+
+  @media screen and (max-width: 768px) {
+    font-size: 60px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 40px;
+  }
 }
 
 .button{

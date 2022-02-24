@@ -4,11 +4,6 @@ import {Link} from "react-scroll";
 
 export const BurgerNav: React.FC = () => {
 
-    // let menuIsOpen = false;
-    // const onBurgerBtnClick = () => {
-    //     menuIsOpen = !menuIsOpen
-    //     console.log(menuIsOpen)
-    // }
     const [menuIsOpen, setMenuIsOpen] = useState(false)
 
     const menuHandler = () => setMenuIsOpen(!menuIsOpen)
@@ -62,7 +57,10 @@ export const BurgerNav: React.FC = () => {
                     >CONTACTS</Link>
 
                 </div>
-                <div onClick={menuHandler} className={style.burgerButton}/>
+                <div onClick={menuHandler}
+                     className={menuIsOpen ? style.burgerButton + ' ' + style.openBurgerButton : style.burgerButton}>
+                    <span/>
+                </div>
             </div>
         </div>
     )

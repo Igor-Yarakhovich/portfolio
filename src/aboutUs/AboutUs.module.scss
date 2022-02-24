@@ -16,6 +16,19 @@
   padding-bottom: 30px;
 }
 
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 80%;
+
+  @media screen and (max-width: 992px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .photo {
   position: relative;
 }
@@ -25,6 +38,16 @@
   object-fit: cover;
   object-position: center;
   width: 400px;
+
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 190px;
+  }
 }
 
 .photo:before {
@@ -47,12 +70,20 @@
   text-align: justify;
   font-size: 21px;
   margin-left: 20px;
+
+  @media screen and (max-width: 992px) {
+    padding-top: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 350px;
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 250px;
+    font-size: 17px;
+
+  }
 }
 
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-  width: 80%;
-}
