@@ -6,6 +6,7 @@
 
   .workContainer {
     height: 100%;
+    min-width: 320px;
     background: $bgSecondColor;
     box-shadow: 0 25px 50px -12px rgb(0 0 0);
     padding: 40px 20px;
