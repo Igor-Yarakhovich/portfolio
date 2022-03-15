@@ -1,0 +1,129 @@
+@import '../../../common/styles/variables';
+@import '../nav/Nav.module';
+
+.container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+
+  .burgerNav {
+    width: 100%;
+    height: 100%;
+
+    .burgerNavItems {
+      position: absolute;
+      background-color: $bgSecondColor;
+      height: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      align-items: center;
+      transform: translate(0, -250px);
+      transition: .7s;
+    }
+
+    .show {
+      transform: translate(0, 0);
+      height: 250px;
+      padding: 20px;
+    }
+
+    .burgerButton {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 25px;
+      right: 10px;
+      cursor: pointer;
+
+      span {
+        transform: translate(0, 0);
+        position: absolute;
+        background-color: $colorTitle;
+        width: 100%;
+        height: 3px;
+        top: 13px;
+        transition: .3s;
+
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        background-color: $colorTitle;
+        width: 100%;
+        height: 3px;
+        left: 0;
+        top: 0;
+        transition: .3s;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        background-color: $colorTitle;
+        width: 100%;
+        height: 3px;
+        left: 0;
+        bottom: 0;
+        transition: .3s;
+      }
+    }
+
+    .openBurgerButton {
+
+      span {
+        transform: translate(150px, 0);
+        transition: .9s;
+      }
+
+      &::after {
+        top:14px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        transition: .3s;
+      }
+
+      &::before {
+        top:14px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        transition: .3s;
+      }
+
+    }
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.button {
+  @extend .button;
+
+  &:hover {
+    color: $primaryColor;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+  &:active {
+    color: $primaryColor
+  }
+}
+
+
+

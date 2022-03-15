@@ -1,0 +1,58 @@
+@import '../../../common/styles/variables';
+
+.nav {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: rgba(14, 13, 13, 0.7);
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button {
+  text-decoration: none;
+  position: relative;
+  transition-duration: 0.4s;
+  color: $colorTitle;
+  padding: 10px 0;
+  z-index: 2;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .05rem;
+  cursor: pointer;
+
+  &:hover {
+    color: $primaryColor;
+    text-decoration: none;
+    transition: .3s;
+
+    &::before {
+      position: absolute;
+      left: 0;
+      content: "";
+      height: 3px;
+      background: $primaryColor;
+      transition: .3s;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+}
+
+.active {
+  color: $primaryColor
+}

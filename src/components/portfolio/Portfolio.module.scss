@@ -1,0 +1,37 @@
+@import '../../common/styles/variables';
+
+.portfolio {
+  background-color: $bgColor;
+
+}
+
+.containerPortfolio {
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  justify-content: center;
+  gap: 30px;
+
+  @media screen and (max-width: 767px) {
+    min-width: 320px;
+    grid-template-columns: repeat(1, minmax(min-content, max-content));
+  }
+}
+
+.works div {
+  max-width: 350px;
+  min-width: 50%;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .works {
+    justify-content: center;
+  }
+}
