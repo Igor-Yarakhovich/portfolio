@@ -1,12 +1,12 @@
 import React from 'react'
 import style from './Footer.module.scss'
 
-import container from '../../common/styles/container.module.css'
-import lindeInIcon from '../../assets/iconSocial/icons8-linkedin-circled-250.png'
-import gitHub from '../../assets/iconSocial/icons8-github-250.png'
-import codeWars from '../../assets/iconSocial/1586249_codewars_icon.png'
-import VK from '../../assets/iconSocial/icons8-vk-circled-250.png'
-import { Title } from '../../common/components/title/Title'
+import container from 'common/styles/container.module.css'
+import lindeInIcon from 'assets/iconSocial/icons8-linkedin-circled-250.png'
+import gitHub from 'assets/iconSocial/icons8-github-250.png'
+import codeWars from 'assets/iconSocial/1586249_codewars_icon.png'
+import VK from 'assets/iconSocial/icons8-vk-circled-250.png'
+import { Title } from 'common/components/title/Title'
 
 export const Footer: React.FC = () => {
     return (

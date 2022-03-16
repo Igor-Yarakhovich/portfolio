@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Contacts.module.scss'
 
-import container from '../../common/styles/container.module.css'
+import container from 'common/styles/container.module.css'
 import { Title } from 'common/components/title/Title'
 
 export const Contacts: React.FC = () => {

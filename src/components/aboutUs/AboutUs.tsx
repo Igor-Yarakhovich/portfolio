@@ -1,12 +1,12 @@
 import React from 'react'
 import style from './AboutUs.module.scss'
 
-import container from '../../common/styles/container.module.css'
-import myPhoto from '../../assets/images/myPhoto.jpg'
+import container from 'common/styles/container.module.css'
+import myPhoto from 'assets/images/myPhoto.jpg'
 import Tilt from 'react-parallax-tilt'
 //@ts-ignore
 import Fade from 'react-reveal/Fade'
-import { Title } from '../../common/components/title/Title'
+import { Title } from 'common/components/title/Title'
 
 export const AboutUs: React.FC = () => {
     return (

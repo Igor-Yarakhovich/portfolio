@@ -1,6 +1,6 @@
 import React from 'react'
-import style from '../../components/home/Home.module.scss'
-import container from '../../common/styles/container.module.css'
+import style from 'components/home/Home.module.scss'
+import container from 'common/styles/container.module.css'
 import ReactTypingEffect from 'react-typing-effect'
 import { Link } from 'react-scroll'
 //@ts-ignore
