@@ -55,6 +55,7 @@ export const Contacts: React.FC = () => {
                 .then(() => {
                     setStatus('succeeded')
                 })
+                .catch((err) => console.log(err))
         },
     })
 
